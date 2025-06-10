@@ -4,3 +4,4 @@ This Repo outlines an attempt to apply GRPO to fine tune a small VLM to solve a 
 
 <img width="571" alt="Screenshot 2025-06-10 at 1 53 44 PM" src="https://github.com/user-attachments/assets/82a5f529-6d26-4bb1-99b2-50eeaef2d4b6" />
 
+We attempted to address this problem through fine tuning SmolVLM-500M-Instruct, a 500 million parameter VLM that was built by Huggingface as a memory efficient yet powerful model for its size. We first tried it on a baseline (no fine tuning), a supervised tuning approach, and finally using GRPOTraining.
